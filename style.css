@@ -1,0 +1,199 @@
+/* Theme Name: CarShareBalearC
+Theme Description: CarShareTheme
+Author: indegra-design.com
+URI: http://www.CarShareBalear.com/
+*/
+
+#container {
+
+}
+
+
+
+#stform {
+
+}
+#boxf {
+
+}
+
+nav {
+  height: 85px;
+}
+
+.nav .navbar-nav {
+  padding-left: 110px;
+  font-weight: 600;
+  font-size: 130%;
+}
+
+.navbar-nav a:hover {
+  border-top: 5px solid #2E9063;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #000;
+  height: 80px;
+  padding: 30px;
+}
+.navbar-inverse .navbar-nav li a:hover, a:active{
+  color: #2E9063;
+}
+
+.navbar-header {
+  background-color: #2E9063;
+  padding: 25px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFF;
+}
+
+
+#blabox {
+  position: relative;
+  left: 18%;
+  width: 1150px;
+  margin-top: 120px;
+}
+
+#fbox {
+  position: absolute;
+  z-index: 9999;
+  height: 300px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 520%;
+  color: #FFF;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 20px;
+  color: #FFF;
+  line-height: 1;
+}
+
+.form-title {
+  width: 100%;
+  background-color: rgba(20, 24, 28, 0.6);
+  padding: 5px 10px;
+}
+
+.formdark {
+  background-color: rgba(20, 24, 28, 0.8);
+
+}
+
+form {
+  color: #FFF;
+}
+
+.form-control {
+  color: #FFF;
+  border-radius: 0;
+  border: 0;
+  background-color: #4C4D50;
+}
+
+.row {
+ padding: 10px;
+}
+label {
+  font-size: 14px;
+}
+
+#formSearchSubmit {
+  background-color: #2E9063;
+  border-radius: 0;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+}
+/*hover*/
+.caption-style-1{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.caption-style-1 img {
+  width: 300px;
+}
+
+.caption-style-1 li{
+  float: left;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.caption-style-1 li:hover .caption{
+  opacity: 1;
+
+}
+
+
+.caption-style-1 img{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  z-index: 4;
+}
+
+
+.caption-style-1 .caption{
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition:all 0.45s ease-in-out;
+  -moz-transition:all 0.45s ease-in-out;
+  -o-transition:all 0.45s ease-in-out;
+  -ms-transition:all 0.45s ease-in-out;
+  transition:all 0.45s ease-in-out;
+
+}
+.caption-style-1 .blur{
+  background-color: #2E9063;
+  height: 300px;
+  width: 300px;
+  z-index: 5;
+  position: absolute;
+}
+
+.caption-style-1 .caption-text h1{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.caption-style-1 .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  top:100px;
+}
+
+.dark {
+  background-color: #000;
+}
+
+ nav a:hover {
+    color: white;
+}
+nav.smaller {
+    height: 75px;
+}
+nav.smaller h1#logo {
+    width: 150px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 30px;
+}
+nav.smaller nav a {
+    line-height: 75px;
+}
